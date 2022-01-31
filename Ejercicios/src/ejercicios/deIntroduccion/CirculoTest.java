@@ -8,12 +8,14 @@ public class CirculoTest {
 		
 		System.out.println(circulo1.obtenerRadio());
 		
-		circulo1.cambiarRadio(12.5);
+		circulo1.cambiarRadio(30);
 		
 		System.out.println(circulo1.obtenerRadio());
 		System.out.println(circulo1.obtenerDiametro());
 		System.out.println(circulo1.obtenerArea());
 		System.out.println(circulo1.obtenerPerimetro());
+		double pi = Math.PI;
+		System.out.println(pi);
 	}
 
 }

@@ -21,7 +21,7 @@ public class Circulo {
 	}
 	
 	public double obtenerArea() {
-		return Math.PI * radio * radio;
+		return Math.PI * Math.pow(radio, 2);
 	}
 	
 	public double obtenerDiametro() {
