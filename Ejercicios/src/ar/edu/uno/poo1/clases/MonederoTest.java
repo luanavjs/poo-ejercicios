@@ -4,7 +4,9 @@ public class MonederoTest {
 
 	public static void main(String[] args) {
 		
-		Monedero cuenta1 = new Monedero(550.50);
+		Dinero d = new Dinero("ARS","Peso argentino", 500);
+		
+		Monedero cuenta1 = new Monedero(d);
 		
 		System.out.println("El mondero tiene: $" + cuenta1.consultarDinero());
 		
